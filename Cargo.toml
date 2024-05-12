@@ -1,0 +1,24 @@
+[package]
+name = "geo-algos"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "From-scratch implementations of classic geospatial algorithms (point-in-polygon, Haversine/Vincenty, Douglas-Peucker, R-tree) for learning."
+license = "MIT"
+readme = "README.md"
+keywords = ["geospatial", "rtree", "geodesy", "gis", "learning"]
+categories = ["algorithms", "science::geo"]
+authors = ["Abdeldjalil Chougui"]
+repository = "https://github.com/AbdeldjalilChougui/geo-algos"
+homepage = "https://github.com/AbdeldjalilChougui/geo-algos"
+include = ["src/**/*", "Cargo.toml", "Cargo.lock", "README.md", "LICENSE", "CITATION.cff"]
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"
+criterion = "0.7"
+
+[[bench]]
+name = "algos"
+harness = false
