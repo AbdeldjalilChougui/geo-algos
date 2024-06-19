@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "geo-algos"
+abstract: "From-scratch implementations of classic geospatial algorithms (point-in-polygon, Haversine/Vincenty, Douglas-Peucker, R-tree) for learning."
+authors:
+  - family-names: Chougui
+    given-names: Abdeldjalil
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/AbdeldjalilChougui/geo-algos"
+url: "https://github.com/AbdeldjalilChougui/geo-algos"
+keywords: [geospatial, rtree, geodesy, gis, learning]
